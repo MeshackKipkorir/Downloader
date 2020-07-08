@@ -1,2 +1,2 @@
 # Downloader
-An image and video downloader site implemented in django
+An image and video downloader web app 
