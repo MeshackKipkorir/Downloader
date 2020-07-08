@@ -10,7 +10,7 @@ class Image(models.Model):
     image = models.ImageField(upload_to='images/%Y/%m/%d')
     description = models.TextField(blank=True)
     created = models.DateField(auto_now_add=True)
-
+    
     def __str__(self):
         return self.title
     
